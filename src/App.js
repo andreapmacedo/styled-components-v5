@@ -1,14 +1,15 @@
-import { BasicTitleProps, BasicTitle } from "./components/BasicTitle"
-import { DefaultButton, HipsterButton } from "./components/Buttons"
+import styled from 'styled-components'
+import { Button } from '@material-ui/core'
+
+const StyledBtn = styled(Button)`
+  text-transform: capitalize;
+`
 
 function App() {
   return (
     <div style={{ padding: '2rem', backgroundColor: "white"}}>
-      <BasicTitle>styled component</BasicTitle>
-      <BasicTitleProps special>styled component</BasicTitleProps>
-      <BasicTitleProps>styled component</BasicTitleProps>
-      <DefaultButton>click me</DefaultButton>
-      <HipsterButton>click me</HipsterButton>
+      <Button color="primary" variant="contained">hello world</Button>
+      <StyledBtn color="primary" variant="contained">hello world</StyledBtn>
     </div>  
   )
 }
