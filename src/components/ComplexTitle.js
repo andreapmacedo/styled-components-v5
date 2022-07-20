@@ -2,26 +2,17 @@ import React from 'react'
 import styled from 'styled-components'
 
 // alternative 1:
-const ComplexTitle = ({title, className }) => {
+const ComplexTitle = ({ title }) => {
   return (
-    <div className={className}>
+    <Wrapper>
       <h1>{title}</h1>
       <div className='underline'></div>
-    </div>
+      <h2 className='title'>random</h2>
+    </Wrapper>
   )
 }
-// alternative 2:
-// const ComplexTitle = (props) => {
-//   console.log(props);
-//   return (
-//     <div>
-//       <h1>{props.title}</h1>
-//       <div className='underline'></div>
-//     </div>
-//   )
-// }
 
-const Wrapper = styled(ComplexTitle)`
+const Wrapper = styled.div`
   h1 {
     text-transform: capitalize;
     text-align: center;
@@ -41,4 +32,4 @@ const Wrapper = styled(ComplexTitle)`
   }
 `
 
-export default Wrapper
+export default ComplexTitle;
