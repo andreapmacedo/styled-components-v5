@@ -18,9 +18,11 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
+
 .section-title {
   color: red;
 }
+
 .btn {
   background: #645cff;
   color: #fff;
@@ -33,9 +35,11 @@ body {
   width: 200px;
   margin: 1rem auto;
 }
+
 .bg-grey {
   background: grey;
 }
+
 .title {
   text-transform: uppercase;
   color: red;
