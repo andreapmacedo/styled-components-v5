@@ -10,6 +10,16 @@ const ComplexTitle = ({ title, className }) => {
     </div>
   )
 }
+// alternative 2:
+// const ComplexTitle = (props) => {
+//   console.log(props);
+//   return (
+//     <div>
+//       <h1>{props.title}</h1>
+//       <div className='underline'></div>
+//     </div>
+//   )
+// }
 
 const Wrapper = styled(ComplexTitle)`
   h1 {

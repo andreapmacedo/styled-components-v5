@@ -1,15 +1,12 @@
 import styled from 'styled-components'
-import { Button } from '@material-ui/core'
+import ComplexTitle from './components/ComplexTitle'
 
-const StyledBtn = styled(Button)`
-  text-transform: capitalize;
-`
 
 function App() {
   return (
     <div style={{ padding: '2rem', backgroundColor: "white"}}>
-      <Button color="primary" variant="contained">hello world</Button>
-      <StyledBtn color="primary" variant="contained">hello world</StyledBtn>
+      <h2>more complex title</h2>
+      <ComplexTitle title='more complex title' />
     </div>  
   )
 }
