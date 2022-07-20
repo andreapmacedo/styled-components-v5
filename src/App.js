@@ -1,5 +1,5 @@
 import { BasicTitleProps, BasicTitle } from "./components/BasicTitle"
-import { DefaultButton } from "./components/Buttons"
+import { DefaultButton, HipsterButton } from "./components/Buttons"
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <BasicTitleProps special>styled component</BasicTitleProps>
       <BasicTitleProps>styled component</BasicTitleProps>
       <DefaultButton>click me</DefaultButton>
+      <HipsterButton>click me</HipsterButton>
     </div>  
   )
 }
