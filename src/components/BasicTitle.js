@@ -1,16 +1,14 @@
 import styled from 'styled-components'
 
-const BasicTitle = styled.h1`
+export const BasicTitle = styled.h1`
   text-align: center;
   text-transform: capitalize;
 `
 
-const BasicTitleO = styled.h1`
+export const BasicTitleProps = styled.h1`
   text-align: center;
   text-transform: capitalize;
   /* color: ${(props) => props.special && 'red'}; */
   /* color: ${({ special }) => special && 'red'}; */
   color: ${({ special }) => (special ? 'red' : 'blue')};
 `
-
-export default BasicTitle
