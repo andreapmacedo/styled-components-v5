@@ -30,6 +30,7 @@ const Wrapper = styled(ComplexTitle)`
     width: 5rem;
     height: 0.25rem;
     background: ${colors.primary};
+    // background: #645cff;
     margin: 0 auto;
   }
   .box {
